@@ -1,0 +1,13 @@
+namespace a {
+    fn x {}
+    namespace b {
+        pub fn y {
+            x()
+        }
+    }
+}
+
+fn main i32 {
+    a::x() // must provoke error at compilation time (unknown keyword)
+    return 0
+}

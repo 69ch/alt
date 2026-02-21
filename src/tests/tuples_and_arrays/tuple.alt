@@ -1,0 +1,5 @@
+fn main i32 {
+    let x: (i32, i64) = (34, 400)
+    let y: (i64, i32) = (20, 35)
+    return x[0] + y[1]
+}

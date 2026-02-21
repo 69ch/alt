@@ -1,0 +1,12 @@
+fn foo (mut iter: usize, do_smth: fn (&mut usize)) {
+    loop {
+        if iter == 0 { break }
+        do_smth(&mut iter)
+    }
+}
+
+fn main {
+    foo(69, fn (iter: &mut usize) {
+        iter.* -= 1
+    })
+}

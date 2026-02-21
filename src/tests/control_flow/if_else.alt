@@ -1,0 +1,15 @@
+fn cmp_x (a: i32, b: i32) i32 {
+    if a == b {
+        return 69
+    }
+    else if a > b {
+        return 33
+    }
+    else {
+        return 420
+    }
+}
+
+fn main i32 {
+    return cmp_x(34, 35) // 420
+}

@@ -1,0 +1,12 @@
+namespace a {
+    fn lol {}
+    namespace b {
+        pub fn x {
+            lol()
+        }
+    }
+}
+
+fn main {
+    a::b::x()
+}

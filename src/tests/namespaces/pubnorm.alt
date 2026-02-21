@@ -1,0 +1,9 @@
+namespace a {
+    pub fn x () {
+
+    }
+}
+
+fn main {
+    a::x()
+}

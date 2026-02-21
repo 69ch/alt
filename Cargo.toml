@@ -1,0 +1,7 @@
+[package]
+name = "nalt"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+insordmap = { version = "0.1.0", path = "insordmap" }

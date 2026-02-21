@@ -1,0 +1,19 @@
+namespace a {
+    pub fn x {}
+    pub fn y {}
+    namespace b {
+        pub fn x {}
+        pub fn z {}
+        pub fn l {}
+        pub fn ll {}
+    }
+}
+
+use a::*
+use b::{ z, l }
+use b::ll
+
+fn main {
+    x() y() z()
+    l() ll()
+}

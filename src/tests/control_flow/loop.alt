@@ -1,0 +1,8 @@
+fn main {
+    let mut x = 69
+    loop {
+        if x == 0 { break }
+        // do smth
+        x -= 1
+    }
+}

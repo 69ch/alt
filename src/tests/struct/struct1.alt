@@ -1,0 +1,27 @@
+namespace Watermelon {
+    // todo pub flag for structs
+    struct LaZuppa {
+        abc: usize,
+        def: i32,
+        ggg: Bebra // todo
+    }
+    struct Bebra {
+        ll: Jopa
+    }
+}
+
+use Watermelon::*
+
+
+struct Jopa {
+    abc: usize,
+    def: i32,
+    //ll: Jopa,
+    ddf: LaZuppa
+}
+
+
+fn main i32 {
+    let x: Jopa
+    return 0
+}
