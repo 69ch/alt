@@ -5,7 +5,7 @@ General purpose compiling programming language in very early stage of developmen
 LLVM is used mainly. I tried on doing optimizng compiler myself, but soon realized that it will be just completely new project that has nothing to do with this one (I will be making it sometime tho).
 
 ## Goal?
-General goal is to make simple language that just works, with features inspired by Rust, C, Go and Zig. More control and convenient features, less restrictions and overcompilcations.
+General goal is to make simple language that just works, with features inspired by Rust, C, Go and Zig. More control and convenient features, less restrictions and overcomplications.
 From Rust there will be most of syntax and non-restricting features, like convenient algebraic types and functionality and data separation ('impl').
 There's no move in direction of asynchronous programming and multi-threading yet, but it's planned to be as convenient as in Go.
 
